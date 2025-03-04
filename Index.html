@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore a collection of free online tools for image compression, editing, and more. All tools are fully responsive and easy to use.">
+    <meta name="keywords" content="online tools, image compression, free tools, web tools, image editing">
+    <meta name="author" content="Your Name">
+    <title>My Tools - Free Online Tools</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: #007bff;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .tool-card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 1.5rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .tool-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .tool-card img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 1rem;
+        }
+
+        .tool-card h3 {
+            margin: 0.5rem 0;
+            font-size: 1.2rem;
+            color: #007bff;
+        }
+
+        .tool-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .tools-grid {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+
+            .tool-card {
+                padding: 1rem;
+            }
+
+            .tool-card img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>My Tools</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>Welcome to My Tools</h2>
+        <p>Explore a collection of free online tools designed to make your life easier. All tools are fully responsive and easy to use.</p>
+
+        <!-- Tools Grid -->
+        <div class="tools-grid">
+            <!-- Tool 1: Image Compression -->
+            <a href="image-compression.html" class="tool-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/3022/3022851.png" alt="Image Compression">
+                <h3>Image Compression</h3>
+                <p>Compress and optimize your images for web use with adjustable compression levels.</p>
+            </a>
+
+            <!-- Tool 2: Image Resizer -->
+            <a href="image-resizer.html" class="tool-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/3143/3143460.png" alt="Image Resizer">
+                <h3>Image Resizer</h3>
+                <p>Resize your images to any dimension while maintaining quality.</p>
+            </a>
+
+            <!-- Tool 3: PDF to Word -->
+            <a href="pdf-to-word.html" class="tool-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2997/2997897.png" alt="PDF to Word">
+                <h3>PDF to Word</h3>
+                <p>Convert PDF files to editable Word documents quickly and easily.</p>
+            </a>
+
+            <!-- Tool 4: QR Code Generator -->
+            <a href="qr-generator.html" class="tool-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2413/2413314.png" alt="QR Code Generator">
+                <h3>QR Code Generator</h3>
+                <p>Generate QR codes for URLs, text, and more in seconds.</p>
+            </a>
+
+            <!-- Tool 5: Color Picker -->
+            <a href="color-picker.html" class="tool-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2779/2779775.png" alt="Color Picker">
+                <h3>Color Picker</h3>
+                <p>Pick colors from images and generate HEX, RGB, and HSL codes.</p>
+            </a>
+
+            <!-- Tool 6: File Converter -->
+            <a href="file-converter.html" class="tool-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" alt="File Converter">
+                <h3>File Converter</h3>
+                <p>Convert files between various formats like JPG, PNG, PDF, and more.</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 My Tools. All rights reserved.</p>
+    </footer>
+</body>
+</html>
